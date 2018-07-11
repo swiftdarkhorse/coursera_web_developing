@@ -1,0 +1,82 @@
+h1
+{
+	text-align: center;
+}
+div 
+{
+	background-color: gray;
+	width: 90%;
+    box-sizing: border-box;
+	border: 1px solid black;
+	/*margin: 5px 5px 5px 5px;*/
+	padding: 0px 0px 20px 20px;
+	
+}
+div > div#chicken
+{
+	background-color: pink;
+	font-size: 30px;
+	font-weight: bold;
+	border: 1px solid black;
+	margin: 0px;
+	padding: 3px;
+	float: right;
+	text-align: center;
+}
+div > div#content1
+{
+	clear: right;
+}
+div > div#beef
+{
+	background-color: red;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	border: 1px solid black;
+	margin: 0px;
+	padding: 3px;
+	float: right;
+	text-align: center;
+}
+div > div#content2
+{
+	clear: right;
+}
+div > div#sushi
+{
+	background-color: yellow;
+	font-size: 30px;
+	font-weight: bold;
+	border: 1px solid black;
+	margin: 0px;
+	padding: 3px;
+	float: right;
+	text-align: center;
+}
+div > div#content3
+{
+	clear: right;
+}
+@media(min-width: 992px)
+{.col-lg
+ {  background-color: gray;
+ 	float: left;
+ 	box-sizing: border-box;
+ 	border: 1px solid black;
+	/*margin: 5px 5px 5px 5px;*/
+	padding: 0px 0px 20px 20px;
+ 	width: 33%;
+ }
+}
+@media (min-width: 768px) and (max-width: 991px)
+{.col-md
+ {  background-color: gray;
+    float: left;
+    box-sizing: border-box;
+ 	border: 1px solid black;
+	/*margin: 5px 5px 5px 5px;*/
+	padding: 0px 0px 20px 20px;
+	width: 50%;
+ }
+}
